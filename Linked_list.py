@@ -92,7 +92,7 @@ class LinkedList:
         itr = self.head
         while itr:
             if x == data_after:
-                node = Node(data_to_insert,itr.next)
+                node = Node(dat a_to_insert,itr.next)
                 itr.next = node
             itr = itr.next
             count += 1
