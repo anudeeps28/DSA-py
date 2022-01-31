@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self, data=None, next=None):
+    def __init__(self, data=None, next=None): #first argument = data, second argument = next
         self.data = data
         self.next = next
 
@@ -8,7 +8,7 @@ class LinkedList:
         self.head = None
 
     def print(self):
-        if self.head is None:
+        if self.head is None: #head is blank = linklist is blank
             print("Linked list is empty")
             return
         itr = self.head
@@ -36,12 +36,12 @@ class LinkedList:
             self.head = Node(data, None)
             return
 
-        itr = self.head
+        itr = self.head #assigning the head values to a variable
 
-        while itr.next:
-            itr = itr.next
+        while itr.next: #iterating itr.next
+            itr = itr.next #move to the next item
 
-        itr.next = Node(data, None)
+        itr.next = Node(data, None) #inserting at the last element
 
     def insert_at(self, index, data):
         if index<0 or index>self.get_length():
