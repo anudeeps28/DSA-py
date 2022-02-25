@@ -51,3 +51,5 @@ for i in range(1,a,2):
     arr.append(i)
 
 print (arr)
+
+#this is goning to be fun!
