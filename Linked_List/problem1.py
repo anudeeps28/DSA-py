@@ -15,7 +15,7 @@ class LinkedList:
         itr = self.head
         llstr = ''
         while itr:
-            llstr += str(itr.data)+' --> ' if itr.next else str(itr.data)
+            llstr += str(itr.data)+' --> ' # if itr.next else str(itr.data)
             itr = itr.next
         print(llstr)
 
@@ -79,7 +79,10 @@ class LinkedList:
 
 if __name__ == '__main__':
     ll = LinkedList()
+
     ll.insert_values([7,9,12,17,18])
+    ll.print()
+
     ll.insert_after_value(12,16)
     ll.print()
 
