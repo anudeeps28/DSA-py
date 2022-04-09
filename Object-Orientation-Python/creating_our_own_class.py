@@ -4,9 +4,13 @@
 class Dog: 
     # creating a class dog means that I am in control of all the objects of class dog
     # also defining the operations that a dog can do  
+
+    # these attributes that are in the __init__ method have to be defined for every object. They are like nouns
+
+    # this __init__ is also called the constructor, while the rest of the methods are called instance methods
     def __init__(self, name, age): # init method (this is a special method)
         # this allows us to instintiate the object right when it is created
-        self.name = name # created an attribute name of class Dog  
+        self.name = name # created an attribute name of class Dog   
         self.age = age  # we have added this new attribute, so every time we 
                         # add an object, we need to define both name and age
                         # but since this is a new attribute, we need to add 
@@ -14,7 +18,8 @@ class Dog:
         pass
 
     #method = a function that goes inside of a class
-    
+    # these methods can act on any of the objects, but may also not act. The are like verbs. They do something on object. The take action
+    # But the __init__ attributes have to be defined for all objects
     def bark(self): # defining a method
         print("bark")
     

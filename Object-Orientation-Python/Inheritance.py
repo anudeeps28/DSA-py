@@ -1,3 +1,6 @@
+# the process of inheritiing properties from parent class to a child class is called inheritence
+# provides us with reusability of code
+
 # inheritance = 2 class similar, we don not need to write fully. 
 # the similarities can be inherited from an upper level class
 
@@ -29,7 +32,8 @@ class Pet: # this is the master class (this is the general class)
     
     def speak(self):
         print("I don't know what I speak")
-    
+
+# writing child class of Pet
 class Cat(Pet): # write Pet inside the brackets instead of self to use the functionallity of the Pet Class
                 # this means that I am inheriting the upper level class pet
                 # this is a more specific class, not a general class
@@ -71,3 +75,47 @@ d.speak()   # if there is a method that is defined in both the general class and
             # general class one
 f = Fish("Bubbles", 60)
 f.speak() 
+
+print("///////////////////////////////////")
+
+# inheritence basic example
+
+# Base/Parent class
+class Vehicle:
+    def Vehicle_info(self):
+        print('Inside Vehicle class')
+
+# Child class
+class Car(Vehicle):
+    def car_info(self):
+        print('Inside Car class')
+
+# Create object of Car
+car = Car()
+
+# access Vehicle's info using car object
+car.Vehicle_info()
+car.car_info()
+
+
+print("////////////////////////////////////")
+
+
+# using the supre() function
+
+class Company:
+    def company_name(self):
+        return 'Google'
+
+class Employee(Company):
+    def info(self):
+        # Calling the superclass method using super()function
+        c_name = super().company_name()
+        print("Jessa works at", c_name)
+
+# Creating object of child class
+emp = Employee()
+emp.info()
+
+print("////////////////////////////////////////")
+
