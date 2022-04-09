@@ -20,7 +20,7 @@ print(type(hello)) # has class function
 string = "hello"
 print(string.upper()) #method upper acting on object stored in string
 
-    # print(x.upper()) will give error
+    # print(x.upper()) will give error because x is int and upper acts on strings
 
 
 
