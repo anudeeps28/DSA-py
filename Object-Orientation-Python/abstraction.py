@@ -11,10 +11,11 @@ class Absclass(ABC):
 class test_class(Absclass):
     def task(self):
         print("we are inside the test_class tast")
+    pass
 
 class example_calss(Absclass):
-    def task(self):
-        print("we are inside the example_class task")
+     def task(self):
+         print("we are inside the example_class task")
 
 # object of test class created
 test_obj = test_class()
