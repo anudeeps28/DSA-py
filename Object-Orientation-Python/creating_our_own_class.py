@@ -41,6 +41,8 @@ class Dog:
     def set_age(self, age): #method to chane the attributes or create new attributes
         self.age = age
 
+# creating instance variable for class 
+# instance variable is nothing but when we make a variable that takes all the properties that we define in a class.
 d = Dog("tim", 34) # variable d assigned to an instance of the class dog
             #
 print(type(d)) # gives the output <class '__main__.Dog'> 
