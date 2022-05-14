@@ -1,0 +1,2 @@
+all the list concpets are mentioned in arrays_practice.py
+
