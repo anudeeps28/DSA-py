@@ -97,6 +97,7 @@ car = Car()
 car.Vehicle_info() # the car does noe have any function as Vehicle_Info, but because it inherits from Vehicle class which has that function, we can use it.
 car.car_info() # and because this is a function in Car, it can obviously be used by it
 
+# key message = you can call the method/property from the parent class using the object of the derived class
 
 print("////////////////////////////////////")
 
