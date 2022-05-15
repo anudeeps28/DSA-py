@@ -99,6 +99,17 @@ car.car_info() # and because this is a function in Car, it can obviously be used
 
 # key message = you can call the method/property from the parent class using the object of the derived class
 
+# you can even call the parent function inside the class as opposed to calling it outside. Like:
+class Vehicle2:
+    def vehicle2_info(self):
+        print("inside vehicle class")
+class Car2 (Vehivle):
+    def car2_info(self):
+        self.vehicle2_info()
+        print("inside car class")
+
+# when we do car2.car2_info both will print inside and outside the class.
+
 print("////////////////////////////////////")
 
 
