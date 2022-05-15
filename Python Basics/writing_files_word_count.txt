@@ -1,0 +1,2 @@
+wordcount:3I love Python
+wordcount:3I love C++
