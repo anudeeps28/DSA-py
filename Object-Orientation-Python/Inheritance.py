@@ -94,7 +94,7 @@ class Car(Vehicle):
 car = Car()
 
 # access Vehicle's info using car object
-car.Vehicle_info()
+car.Vehicle_info() # the car does noe have any function as Vehicle_Info, but because it inherits from Vehicle class which has that function, we can use it.
 car.car_info()
 
 
