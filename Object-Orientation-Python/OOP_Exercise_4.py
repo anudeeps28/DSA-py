@@ -8,7 +8,7 @@ class Vehicle:
         self.mileage = mileage
 
     def seating_capacity(self, capacity):
-        return f"The seating capacity of a {self.name} is {capacity} passengers"
+        return f"The seating capacity of a {self.name} is {capacity} passengers" # this is actually a pro way to add print instead of using the conventional print
 
     
 class Bus(Vehicle):

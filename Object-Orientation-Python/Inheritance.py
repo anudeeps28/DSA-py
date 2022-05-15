@@ -94,9 +94,21 @@ class Car(Vehicle):
 car = Car()
 
 # access Vehicle's info using car object
-car.Vehicle_info()
-car.car_info()
+car.Vehicle_info() # the car does noe have any function as Vehicle_Info, but because it inherits from Vehicle class which has that function, we can use it.
+car.car_info() # and because this is a function in Car, it can obviously be used by it
 
+# key message = you can call the method/property from the parent class using the object of the derived class
+
+# you can even call the parent function inside the class as opposed to calling it outside. Like:
+class Vehicle2:
+    def vehicle2_info(self):
+        print("inside vehicle class")
+class Car2 (Vehivle):
+    def car2_info(self):
+        self.vehicle2_info()
+        print("inside car class")
+
+# when we do car2.car2_info both will print inside and outside the class.
 
 print("////////////////////////////////////")
 
