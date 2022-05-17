@@ -20,7 +20,7 @@ print(sqr_numbers)
 # set is an unordered collection of unique items (you cannot have same items, unlike list)
 s = set([1,2,3,4,5,2,2,1]) # method - 1 of creating set
 print(s)
-# syntax for sets {}
+# syntax for sets {"something"} (only {} will initialize a dictionary)
 # using comprehension
 even3 = {i for i in s if i%2==0} # method - 2 of creating set
 print(even3) 
