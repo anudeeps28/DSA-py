@@ -126,7 +126,9 @@ class Employee(Company):
         print("Jessa works at", c_name)
 
 # Creating object of child class
-emp = Employee()
+emp = Employee() 
+
+# calling a method of employee class
 emp.info()
 
 print("////////////////////////////////////////")
