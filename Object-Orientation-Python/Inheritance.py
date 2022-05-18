@@ -113,7 +113,7 @@ class Car2 (Vehivle):
 print("////////////////////////////////////")
 
 
-# using the supre() function
+# using the super() function
 
 class Company:
     def company_name(self):
@@ -122,7 +122,7 @@ class Company:
 class Employee(Company):
     def info(self):
         # Calling the superclass method using super()function
-        c_name = super().company_name()
+        c_name = super().company_name() # using super() function, we don't need to remember the name of the class to access its methods.
         print("Jessa works at", c_name)
 
 # Creating object of child class
