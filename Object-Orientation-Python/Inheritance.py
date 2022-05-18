@@ -103,7 +103,7 @@ car.car_info() # and because this is a function in Car, it can obviously be used
 class Vehicle2:
     def vehicle2_info(self):
         print("inside vehicle class")
-class Car2 (Vehivle):
+class Car2 (Vehicle2):
     def car2_info(self):
         self.vehicle2_info()
         print("inside car class")
