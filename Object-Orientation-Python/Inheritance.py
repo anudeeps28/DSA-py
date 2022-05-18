@@ -108,7 +108,7 @@ class Car2 (Vehivle):
         self.vehicle2_info()
         print("inside car class")
 
-# when we do car2.car2_info both will print inside and outside the class.
+# when we do car2.car2_info both will print inside vehicle class and inside car class.
 
 print("////////////////////////////////////")
 
