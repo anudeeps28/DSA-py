@@ -1,5 +1,5 @@
 '''
-We need to find the minimin number of times a string reduces to another string where there are all unique characters.
+We need to find the minimum number of times a string reduces to another string where there are all unique characters.
 '''
 
 def getMinDeletions(s): # "abadbsdaas" taken as input 
