@@ -76,7 +76,7 @@ d.speak()   # if there is a method that is defined in both the general class and
 f = Fish("Bubbles", 60)
 f.speak() 
 
-print("///////////////////////////////////")
+print("###############################################################################################")
 
 # inheritence basic example
 
