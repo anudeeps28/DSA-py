@@ -38,7 +38,7 @@ s1 = Student("Tim", 19,95) #making students: objects of class Student
 s2 = Student("Bill", 19, 75)
 s3 = Student("Jill", 19, 65)
 
-course = Course("Science", 2) #making course: object course of class Course
+course = Course("Science", 2) #making course: object course of class Course (this is an object of clasc Course)
 
 course.add_student(s1)
 course.add_student(s2)
