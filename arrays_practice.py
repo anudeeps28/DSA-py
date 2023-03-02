@@ -1,3 +1,4 @@
+# Question: https://github.com/codebasics/data-structures-algorithms-python/blob/master/data_structures/2_Arrays/2_arrays_exercise.md
 #basic function
 expenses = [2200, 2350, 2600, 2130, 2190]
 print (expenses)
