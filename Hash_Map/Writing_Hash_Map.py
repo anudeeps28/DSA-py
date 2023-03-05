@@ -1,9 +1,6 @@
 # writing hash function
 
-from re import T
-
-
-class HashTable:
+class HashTable: 
     def __init__(self):
         self.MAX = 100
         self.arr = [None for i in range(self.MAX)] # initializing array of 100 elements with each value None
@@ -16,7 +13,7 @@ class HashTable:
 
     def __setitem__(self,key,val):
         h = self.get_hash(key)
-        self.array[h] = val
+        self.arr[h] = val
     
     def __getitem__(self,key):
         h = self.get_hash(key)
