@@ -10,7 +10,7 @@ with open ("stock_prices.csv", "r") as f:
         stock_prices.append([day,price])
 
 # using a list is not effieicnt. If the file is huge and you are looking for something in the end
-# then the complexity of the program is big (order of n)
+# then the complexity of the program is big (O(n))
 
 # same thing can be done using a hash map
 stock_prices = {} #replacing list with a dictionary
@@ -22,7 +22,7 @@ with open ("stock_prices.csv", "r") as f:
         stock_prices[day] = price
 
 # stock_prices[March 9] will give output 302.0
-# this uses complexity of order 1
+# this uses complexity O(1)
 
 # writing hash function
 def get_hash():
