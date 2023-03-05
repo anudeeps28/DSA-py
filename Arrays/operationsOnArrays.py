@@ -7,6 +7,10 @@ arr = [1, 2, 3, 4, 5]
 arr.append(6)
 print(arr) # Output: [1, 2, 3, 4, 5, 6]
 
+# Inserting at a particular position
+arr = [1,2,4,5]
+arr.insert(2,3) #Output: 1,2,3,4,5
+
 # Removing the last element from the array
 arr = [1, 2, 3, 4, 5]
 arr.pop()
@@ -16,6 +20,10 @@ print(arr) # Output: [1, 2, 3, 4]
 arr = [1, 2, 3, 4, 5]
 arr.pop(1)
 print(arr) # Output: [1, 3, 4, 5]
+
+# Removing at any index
+arr = [1,2,3,4,5]
+arr.remove(2) # Output: 1,2,4,5
 
 # Sorting the array in ascending order
 arr = [5, 2, 4, 1, 3]
