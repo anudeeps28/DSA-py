@@ -59,6 +59,16 @@ array = [2,3,8,9]
 
 t = time.time()
 
+# what is a thread?
+'''
+Multiple threads live within the same process/program
+
+Threads will have their own instruction set, their own stack memory, their own tasks
+But they will be sharing is an address space
+    * this means that any global variables defined in the program can be accessed by all of them
+
+''' 
+
 # creating threads which will run 
 t1 = threading.Thread(target=calc_square, args=(array,))
 t2 = threading.Thread(target=calc_cube, args=(array,))
