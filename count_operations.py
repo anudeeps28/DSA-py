@@ -12,6 +12,7 @@ Find the minimum number of operations needed for this.
 
 # brute force approach
 '''
+
 A simple way to make all elements equal is that at each step 
 find the largest elements and then increase all rest n-1 elements by 1.
 We should keep doing this operation till all elements become equal. 

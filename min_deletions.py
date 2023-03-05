@@ -35,7 +35,6 @@ def getMinDeletions(s): # "abadbsdaas" taken as input
     
     return del_count
 
-
 if __name__ == "__main__":
     print(getMinDeletions("abadbsdaas"))
     
