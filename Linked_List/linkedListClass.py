@@ -10,7 +10,7 @@ class LinkedList:
     # append adds a new node to the end of the list
     def append(self, value):
         new_node = Node(value)
-        if not self.head:
+        if not self.head: # if there is no value assigned to head
             self.head = new_node
             return
         current_node = self.head
