@@ -1,5 +1,4 @@
-# python list can be used as a stack
-
+# USING LIST AS A STACK (can use)
 stack = []
 stack.append(1)
 stack.append(2)
@@ -15,5 +14,19 @@ print(stack)  # Output: []
 stack = [1, 2, 3]
 top_element = stack[-1]
 print(top_element)  # Output: 3
+
+######################################################################
+
+# USING COLLECTIONS DEQUE AS STACK (Recommended)
+from collections import deque
+stack = deque()
+stack.append(1)
+stack.append(2)
+stack.append(3)
+
+stack.pop() # Output: 1
+stack.pop() # Output: 2
+stack.pop() # Output: 3
+
 
 
