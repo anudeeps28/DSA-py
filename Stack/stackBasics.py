@@ -24,9 +24,9 @@ stack.append(1)
 stack.append(2)
 stack.append(3)
 
-stack.pop() # Output: 1
-stack.pop() # Output: 2
 stack.pop() # Output: 3
+stack.pop() # Output: 2
+stack.pop() # Output: 1
 
 
 
