@@ -3,6 +3,7 @@ from distutils.file_util import write_file
 
 
 f = open("writing_file.txt", "w")  # open opens a new file for writing or reading; w = write
+# the above line can be written as with open("writing_file.txt", "w") as f
 # w = overwrite previous content
 f.write("I love Python")
 f.close() # closing file will shut down all the resources that OS is using
