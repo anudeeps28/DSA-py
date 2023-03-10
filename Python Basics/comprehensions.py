@@ -8,6 +8,12 @@ for i in numbers:
     if i%2 == 0:
         even.append(i)
 print(even)
+
+# negavie indeces
+print(numbers[-1])
+print(numbers[-2])
+print(numbers[-4])
+
 # list comprehension =  a better way of doing this (in one line)
 even2 = [i for i in  numbers if i%2 == 0]
 print(even2)
