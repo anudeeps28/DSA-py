@@ -9,6 +9,8 @@ for i in numbers:
         even.append(i)
 print(even)
 
+print(numbers[1:4:2]) # print from index 1->4 with a step of 2
+print(numbers[4:1:-2]) # we can give negative step also!
 # negavie indeces
 print(numbers[-1])
 print(numbers[-2])
