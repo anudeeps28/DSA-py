@@ -24,6 +24,10 @@ for key in d:
 # printing all values using tuple
 for k,v in d.items(): 
     print("key:", k, "value:", v)
+    
+# printing only the values
+for value in d.items():
+    print("value": value)
 
 # checking if some person name is in dictionary or not
 if "tom" in d:
