@@ -60,3 +60,6 @@ print(h)
     # this is with any programming language
 
 print(bool(0)) # is True for for every number except 0
+
+for i in range(1,5):
+    print(i, end="")
