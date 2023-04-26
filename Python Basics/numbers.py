@@ -59,3 +59,4 @@ print(h)
     # they always loose accuracy
     # this is with any programming language
 
+print(bool(0)) # is True for for every number except 0

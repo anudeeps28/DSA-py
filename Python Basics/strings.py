@@ -74,4 +74,6 @@ print(answer2)
 answer3 = f'{s}, {num}'
 print(answer3)
  
-print(help(str))
+# print(help(str))
+
+print(bool("abc")) # True: because this is not an empty string
