@@ -21,7 +21,7 @@ def time_it(func):
     return wraper
 
 @time_it # this is the decorator
-def cal_square(numbes):
+def cal_square(numbers):
     result = []
     for number in numbers:
         result.append(number*number)
@@ -29,7 +29,7 @@ def cal_square(numbes):
     return result
 
 @time_it # this is the decorator
-def cal_cube(numbes):
+def cal_cube(numbers):
     result = []
     for number in numbers:
         result.append(number*number*number)
