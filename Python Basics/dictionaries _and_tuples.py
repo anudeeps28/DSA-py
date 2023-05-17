@@ -27,7 +27,7 @@ for k,v in d.items():
     
 # printing only the values
 for value in d.items():
-    print("value": value)
+    print("value:", value)
 
 # checking if some person name is in dictionary or not
 if "tom" in d:
