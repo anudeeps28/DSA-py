@@ -61,5 +61,6 @@ print(h)
 
 print(bool(0)) # is True for for every number except 0
 
+# printing in the same line
 for i in range(1,5):
     print(i, end="")
