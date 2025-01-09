@@ -84,4 +84,4 @@ if __name__ == "__main__":
     p.join()
 
     while q.empty() is False:
-        pring(q.get())
+        print(q.get())
